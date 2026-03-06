@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="/">
+    <meta charset="UTF-8">
+    <title>Vehicle Information</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/js/components.js" defer></script>
+</head>
+<body>
+
+<div data-include="/components/navbar.html"></div>
+
+<section class="centered-content-section">
+    <div class="centered-box">
+        <h2 class="box-header">Vehicle Information</h2>
+        <span>Below are models that are currently supported by our API.</span>
+        <span style="font-size: 15px; font-weight: 100">Click on a brand or model for more information.</span>
+
+
+        <div class="input">
+            <input type="text" id="modelSearchInput" placeholder="Search for a model">
+        </div>
+    </div>
+</section>
+
+<section class="content-section">
+    <div id="vehicleContainer"></div>
+</section>
+
+<div data-include="/components/footer.html"></div>
+
+<script src="/js/vehicle-information.js"></script>
+
+</body>
+
+
+</html>

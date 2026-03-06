@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="/pages/">
+    <meta charset="UTF-8">
+    <title>VINtrospect</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/js/components.js" defer></script>
+</head>
+<body>
+
+    <div data-include="/components/navbar.html"></div>
+
+    <section class="centered-content-section">
+        <div class="centered-box">
+            <h2 class="box-header">Decode your VIN</h2>
+
+            <div class="input">
+                <input type="text" id="vinInput" placeholder="Please enter your VIN here" maxlength="17">
+            </div>
+            <div class="vin-actions">
+                <button id="Submit">Decode VIN</button>
+                <div class="char-count"><span id="currentCount">0</span>/17</div>
+                <div id="loadingMessage" style="display:none; margin-top:10px; color: purple;">Loading, please wait...</div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="box">
+            <h2 class="box-header">Who We Are</h2>
+            <p>VINtrospect is a website and service for VIN decoding and supplying information about your vehicle. <br><br>
+            Currently, the website and service are still in its early development stage. <br><br>
+                Our goal and mission is to ensure and deliver accurate data to our users and keep expanding the data that we have available. <br><br>
+                For our users we are aiming to be able to help both the hobbyist or the big dealer network. <br><br>
+                If you have a feature request or another suggestion please reach out to us using to Contact Us page!
+            </p>
+        </div>
+        <div class="box">
+            <h2 class="box-header">Current Development</h2>
+            <p>Our current development focuses are the following:</p>
+            <ul style="list-style-type: square; margin-left: 20px;">
+                <li>Add the overall decoding knowledge of our decoder.</li>
+                <li>Improve the user experience on the website.</li>
+                <li>Open up our API(s) for other users to use.</li>
+                <li>Add more detailed information about vehicles in our Vehicle Information section</li>
+            </ul>
+        </div>
+        <div class="box">
+            <h2 class="box-header">How It Works</h2>
+            <ul style="list-style-type: number; margin-left: 20px;">
+                <li>Enter your VIN in the input box above.</li>
+                <li>Our decoding API decodes your VIN and returns the data.</li>
+                <li>Get insights about your entered vehicle.</li>
+            </ul>
+        </div>
+    </section>
+
+    <div data-include="/components/footer.html"></div>
+
+    <script>
+        const vinInput = document.getElementById('vinInput');
+        const currentCount = document.getElementById('currentCount');
+        const vinSubmit = document.getElementById('Submit');
+        const loadingMessage = document.getElementById('loadingMessage');
+
+        // Live character count
+        vinInput.addEventListener('input', () => {
+            currentCount.textContent = vinInput.value.length;
+        });
+
+        // Button click
+        vinSubmit.addEventListener('click', async () => {
+            const vin = vinInput.value.trim();
+            if (vin.length === 0) {
+                alert("Please enter your VIN first.");
+                return;
+            }
+
+            // Show loading message
+            loadingMessage.style.display = 'block';
+            vinSubmit.disabled = true; // optional: disable button to prevent double clicks
+
+            try {
+                // Call your GET API
+                const response = await fetch(`https://vintrospect-basic-vin-decode.onrender.com/api/decode?vin=${encodeURIComponent(vin)}`);
+                if (!response.ok) {
+                    throw new Error(`API returned status ${response.status}`);
+                }
+
+                const data = await response.json();
+
+                // Save the API result in sessionStorage
+                sessionStorage.setItem('vinResult', JSON.stringify(data));
+
+                // Redirect to decoding-results.html
+                window.location.href = '/pages/decoding-results.html';
+
+            } catch (error) {
+                console.error('Error calling API:', error);
+                alert('Failed to decode VIN. Please try again later.');
+            } finally {
+                // Hide loading message and re-enable button
+                loadingMessage.style.display = 'none';
+                vinSubmit.disabled = false;
+            }
+        });
+    </script>
+
+</body>
+
+
+</html>

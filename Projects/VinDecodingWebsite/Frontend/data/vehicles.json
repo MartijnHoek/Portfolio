@@ -1,0 +1,76 @@
+[
+  {
+    "id": "c7ea1379-10c5-426b-8a43-b24dc1c8cb38",
+    "name": "Mitsubishi",
+    "description": "",
+    "models": [
+      {
+        "id": "866f0bdf-704b-46f7-97b6-337de2f363f0",
+        "name": "3000GT"
+      },
+      {
+        "id": "7249547f-6f64-4185-b4a3-31f6cb46db8e",
+        "name": "Carisma"
+      },
+      {
+        "id": "43b8603c-547f-45b8-a395-108028215926",
+        "name": "Colt (Z30)"
+      },
+      {
+        "id": "91d2231a-3db7-4aa0-8503-b41c7330a014",
+        "name": "Eclipse Cross"
+      },
+      {
+        "id": "4e167be3-1aee-4b6e-a27e-28bd7b68fcd4",
+        "name": "Eclipse (D31A/D32A/D33A/D38A/D39A)"
+      },
+      {
+        "id": "987c041e-9143-458e-9d64-ec9509138e8d",
+        "name": "Eclipse (DK2A/DK4A)"
+      },
+      {
+        "id": "7744c06d-9f16-46e0-b990-0525a427d78f",
+        "name": "Galant (E30)"
+      },
+      {
+        "id": "b2e936cf-3c62-4268-a8cc-9d2246affc1c",
+        "name": "Galant (E50/E60/E70/E80)"
+      },
+      {
+        "id": "89774e6c-7dfd-41f6-943e-4662d128649e",
+        "name": "Galant (EA/EC)"
+      },
+      {
+        "id": "cb84bcb0-bd01-41f0-941e-2e6732624e3d",
+        "name": "I-MiEV"
+      },
+      {
+        "id": "f1d1eec7-582c-453e-9e5b-a58aa0236640",
+        "name": "Starion"
+      },
+      {
+        "id": "ee4c657b-d09f-4860-a103-448d470dcd61",
+        "name": "Xpander"
+      }
+    ]
+  },
+  {
+    "id": "4cdc5cfc-963b-4f1f-8436-6fb657856236",
+    "name": "Zeekr",
+    "description": "",
+    "models": [
+      {
+        "id": "3b57ba31-77e6-4472-809a-0043eedf4b85",
+        "name": "001"
+      },
+      {
+        "id": "e3175d39-9afe-4fcf-a75d-9e794780d884",
+        "name": "009"
+      },
+      {
+        "id": "e9f85e0c-c060-4f4b-a694-ab22247b2866",
+        "name": "X"
+      }
+    ]
+  }
+]

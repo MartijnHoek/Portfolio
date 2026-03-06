@@ -1,0 +1,282 @@
+[
+  {
+    "id": "52de1ce7-813b-48dc-8a2f-c561effa7fe2",
+    "name": "Ferrari",
+    "description": "",
+    "models": [
+      {
+        "id": "d9bbe9b5-e755-4f9b-8b8d-3622a86a5e44",
+        "name": "208"
+      },
+      {
+        "id": "b0388fc0-2afe-4685-aed0-6182552ea1d9",
+        "name": "296"
+      },
+      {
+        "id": "30b88c01-f436-4a51-aa03-12a09d834fd1",
+        "name": "308"
+      },
+      {
+        "id": "4b9bc81f-ffe2-4187-8f87-5705e60ae8c4",
+        "name": "328"
+      },
+      {
+        "id": "e873697d-8fc9-47cb-a745-6eb8e9131f07",
+        "name": "348"
+      },
+      {
+        "id": "c2e67c2b-c496-490f-8053-74f0d4c4993f",
+        "name": "355"
+      },
+      {
+        "id": "3196b402-2e0c-411c-aba2-0b572beac292",
+        "name": "360"
+      },
+      {
+        "id": "2fdd92fc-2519-4e41-8683-bac44b36f74d",
+        "name": "400i"
+      },
+      {
+        "id": "2403689a-aa53-46dc-9436-c15e01f1b959",
+        "name": "412"
+      },
+      {
+        "id": "96c219be-6ed6-49d0-8e4a-83f14373e8df",
+        "name": "456"
+      },
+      {
+        "id": "c78dcffc-011d-4429-a840-fb010dbe142a",
+        "name": "458"
+      },
+      {
+        "id": "96248468-d416-49ae-a3d8-d209f3eb7ec5",
+        "name": "488"
+      },
+      {
+        "id": "a92b28cf-70d5-4220-9d08-fd919adc2777",
+        "name": "512"
+      },
+      {
+        "id": "5d9ebf13-af26-4064-97de-4964f484387c",
+        "name": "550"
+      },
+      {
+        "id": "085a1f2d-b93a-4573-b7f9-57e5dac2fcbe",
+        "name": "575"
+      },
+      {
+        "id": "a5592539-eafe-4fb1-b929-645b97cae0b1",
+        "name": "599"
+      },
+      {
+        "id": "feaaaf9c-3b47-4f0d-a463-e9bf2d35a342",
+        "name": "612 Scaglietti/612 Scaglietti F1"
+      },
+      {
+        "id": "ed563419-f69e-4228-a86e-ce1de83d634a",
+        "name": "812"
+      },
+      {
+        "id": "88624476-d9e7-431c-bb58-59f6c1ff8173",
+        "name": "408 4RM"
+      },
+      {
+        "id": "26d27ae6-4669-4f63-a3dc-ebef18e391e1",
+        "name": "California"
+      },
+      {
+        "id": "25fb11a9-224e-412a-9a83-99c55368472f",
+        "name": "California T"
+      },
+      {
+        "id": "5c0b1555-6df0-4593-8e1d-47cf48eb6640",
+        "name": "Daytona SP3"
+      },
+      {
+        "id": "eec925e2-124c-4b40-bc87-c4b8dabf4fbe",
+        "name": "Enzo"
+      },
+      {
+        "id": "ae22e560-3ef7-4c32-b36d-eaf924b63eba",
+        "name": "F8"
+      },
+      {
+        "id": "04348b56-a856-4a25-8f49-a041c65b5df0",
+        "name": "F12"
+      },
+      {
+        "id": "ebd0356e-2d1a-4658-b6be-2508f722c358",
+        "name": "F40"
+      },
+      {
+        "id": "1334f94c-bce1-4892-b51f-115e656378e0",
+        "name": "F50"
+      },
+      {
+        "id": "6665c729-03b4-4644-8150-32062a574a9a",
+        "name": "F430"
+      },
+      {
+        "id": "444e0faf-d2db-40b1-b5c1-02ad8aa137be",
+        "name": "FF"
+      },
+      {
+        "id": "6cd33750-e129-4628-9f4a-28b6b402a65f",
+        "name": "GTB Turbo"
+      },
+      {
+        "id": "306f09e7-247d-4962-8865-5f7f731911e3",
+        "name": "GTC4Lusso/GTC4Lusso T"
+      },
+      {
+        "id": "9f706d8b-0eea-4cb2-aded-9bd2ac80bb21",
+        "name": "GTO"
+      },
+      {
+        "id": "9daad08c-0d7f-4027-846d-8ffca136ad40",
+        "name": "GTS Turbo"
+      },
+      {
+        "id": "482e604d-db14-46ce-8300-30d0e0dfdfa4",
+        "name": "LaFerrari"
+      },
+      {
+        "id": "7c366d1b-a081-4eca-b01b-8bd054c4c730",
+        "name": "Mondial"
+      },
+      {
+        "id": "9de36085-f2a6-4abf-b0aa-107a2901d6b7",
+        "name": "Monza SP1/SP2"
+      },
+      {
+        "id": "04c63c44-39f1-4b22-9f45-e661bc0457d4",
+        "name": "Portofino"
+      },
+      {
+        "id": "ebf6a658-8e12-4cf3-b4c6-d023e5a1130d",
+        "name": "Purosangue"
+      },
+      {
+        "id": "a6552f88-b42d-4eaf-9332-ed7edf3122f5",
+        "name": "Roma"
+      },
+      {
+        "id": "7e0e5993-e884-448b-a259-f71918a794ae",
+        "name": "SF90"
+      },
+      {
+        "id": "bf2c9d89-6945-4685-9170-d4b38f6bf3b2",
+        "name": "Testarossa"
+      }
+    ]
+  },
+  {
+    "id": "12e38086-1a68-44b1-b0b7-4c3883e06ca8",
+    "name": "Kia",
+    "description": "",
+    "models": [
+      {
+        "id": "a9a0efcf-ea9d-40fd-a247-89d87b809b21",
+        "name": "Forte (BD)"
+      },
+      {
+        "id": "bfa02833-3896-44fe-b98f-9b37a8f5fc8a",
+        "name": "Forte (YD)"
+      },
+      {
+        "id": "14f4c9ea-9cac-40fc-b654-3b2ae07de767",
+        "name": "K5 (DL3)"
+      },
+      {
+        "id": "c8509e30-c772-449f-8ce4-4ef7060a1b41",
+        "name": "Picanto (JA)"
+      },
+      {
+        "id": "afed2c9d-b041-4ecd-9f09-d9d7a86e46c3",
+        "name": "Picanto (SA)"
+      },
+      {
+        "id": "17f0ad6a-2eb2-4854-a4d8-b1165d9dd190",
+        "name": "Picanto (TA)"
+      },
+      {
+        "id": "5f192600-47d5-4c76-96ff-014ca13dfc6c",
+        "name": "Stinger"
+      }
+    ]
+  },
+  {
+    "id": "c7ea1379-10c5-426b-8a43-b24dc1c8cb38",
+    "name": "Mitsubishi",
+    "description": "",
+    "models": [
+      {
+        "id": "866f0bdf-704b-46f7-97b6-337de2f363f0",
+        "name": "3000GT"
+      },
+      {
+        "id": "7249547f-6f64-4185-b4a3-31f6cb46db8e",
+        "name": "Carisma"
+      },
+      {
+        "id": "43b8603c-547f-45b8-a395-108028215926",
+        "name": "Colt (Z30)"
+      },
+      {
+        "id": "91d2231a-3db7-4aa0-8503-b41c7330a014",
+        "name": "Eclipse Cross"
+      },
+      {
+        "id": "4e167be3-1aee-4b6e-a27e-28bd7b68fcd4",
+        "name": "Eclipse (D31A/D32A/D33A/D38A/D39A)"
+      },
+      {
+        "id": "987c041e-9143-458e-9d64-ec9509138e8d",
+        "name": "Eclipse (DK2A/DK4A)"
+      },
+      {
+        "id": "7744c06d-9f16-46e0-b990-0525a427d78f",
+        "name": "Galant (E30)"
+      },
+      {
+        "id": "b2e936cf-3c62-4268-a8cc-9d2246affc1c",
+        "name": "Galant (E50/E60/E70/E80)"
+      },
+      {
+        "id": "89774e6c-7dfd-41f6-943e-4662d128649e",
+        "name": "Galant (EA/EC)"
+      },
+      {
+        "id": "cb84bcb0-bd01-41f0-941e-2e6732624e3d",
+        "name": "I-MiEV"
+      },
+      {
+        "id": "f1d1eec7-582c-453e-9e5b-a58aa0236640",
+        "name": "Starion"
+      },
+      {
+        "id": "ee4c657b-d09f-4860-a103-448d470dcd61",
+        "name": "Xpander"
+      }
+    ]
+  },
+  {
+    "id": "4cdc5cfc-963b-4f1f-8436-6fb657856236",
+    "name": "Zeekr",
+    "description": "",
+    "models": [
+      {
+        "id": "3b57ba31-77e6-4472-809a-0043eedf4b85",
+        "name": "001"
+      },
+      {
+        "id": "e3175d39-9afe-4fcf-a75d-9e794780d884",
+        "name": "009"
+      },
+      {
+        "id": "e9f85e0c-c060-4f4b-a694-ab22247b2866",
+        "name": "X"
+      }
+    ]
+  }
+]

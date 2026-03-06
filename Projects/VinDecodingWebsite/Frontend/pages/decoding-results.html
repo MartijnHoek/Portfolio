@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="/">
+    <meta charset="UTF-8">
+    <title>Decoding Results</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/js/components.js" defer></script>
+    <link rel="stylesheet" href="/assets/flag-icons-main/css/flag-icons.min.css">
+</head>
+<body>
+
+<div data-include="/components/navbar.html"></div>
+
+
+<section class="centered-content-section">
+    <div class="centered-box centered-box-decoding-results">
+        <h2 class="box-header">VIN Decoding Results</h2>
+        <p id="vehicleSummary" class="vehicle-summary"></p>
+        <div><span id="vin"></span></div>
+
+        <div class="result-container" id="resultContainer">
+            <div class="category-line"><span>Vehicle</span></div>
+            <div class="field-container">
+                <span class="field-label">Make:</span> <span id="makeName"></span>
+            </div>
+            <div class="field-container">
+                <span class="field-label">Name:</span> <span id="modelName"></span>
+            </div>
+            <div class="field-container">
+                <span class="field-label">Variant:</span> <span id="modelVariant"></span>
+            </div>
+            <div class="field-container">
+                <span class="field-label">Production Date:</span> <span id="modelProductionDate"></span>
+            </div>
+
+            <!-- Engine -->
+            <div class="category-line"><span>Engine</span></div>
+            <div class="field-container">
+                <span class="field-label">Manufacturer:</span> <span id="engineManufacturerName"></span>
+            </div>
+            <div class="field-container">
+                <span class="field-label">Name:</span> <span id="engineName"></span>
+            </div>
+            <div class="field-container">
+                <span class="field-label">Type:</span> <span id="engineEngineType"></span>
+            </div>
+            <div class="field-container">
+                <span class="field-label">Aspiration:</span> <span id="engineAspiration"></span>
+            </div>
+            <div class="field-container">
+                <span class="field-label">Fuel Type:</span> <span id="engineFuelType"></span>
+            </div>
+            <div class="field-container">
+                <span class="field-label">Displacement:</span> <span id="engineDisplacementL"></span>
+            </div>
+            <div class="field-container">
+                <span class="field-label">Power:</span> <span id="enginePowerKw"></span>
+            </div>
+            <div class="field-container">
+                <span class="field-label">Torque:</span> <span id="engineTorqueNm"></span>
+            </div>
+
+            <!-- Assembly Plant -->
+            <div class="category-line"><span>Assembly Plant</span></div>
+            <div class="field-container">
+                <span class="field-label">Name:</span> <span id="assemblyPlantName"></span>
+            </div>
+            <div class="field-container">
+                <span class="field-label">Country:</span>
+                <span class="country-wrapper">
+                        <span id="assemblyPlantCountryName"></span>
+                        <span id="assemblyFlag" class="fi"></span>
+                    </span>
+            </div>
+            <div class="field-container">
+                <span class="field-label">Region:</span> <span id="assemblyPlantRegion"></span>
+            </div>
+            <div class="field-container">
+                <span class="field-label">City:</span> <span id="assemblyPlantCity"></span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div data-include="/components/footer.html"></div>
+
+
+<script>
+    const resultContainer = document.getElementById('resultContainer');
+    const vinResult = sessionStorage.getItem('vinResult');
+
+    if (vinResult) {
+        const data = JSON.parse(vinResult);
+
+        // Helper function to safely set textContent
+        function setText(id, value) {
+            const el = document.getElementById(id);
+            if (el) el.textContent = value ?? '---';
+        }
+
+        // VIN and Make
+        setText("vin", data.vin);
+        setText("makeName", data.make?.name);
+
+        // Assembly Plant
+        setText("assemblyPlantName", data.model?.assembly_plant?.name);
+        setText("assemblyPlantCity", data.model?.assembly_plant?.city);
+        setText("assemblyPlantRegion", data.model?.assembly_plant?.region);
+        setText("assemblyPlantCountryName", data.model?.assembly_plant?.country?.name);
+        setText("assemblyPlantCountryAlpha2", data.model?.assembly_plant?.country?.alpha_2);
+
+        // Add flag next to country name
+        const countryAlpha2 = data.model?.assembly_plant?.country?.alpha_2;
+        if (countryAlpha2) {
+            const flagEl = document.getElementById("assemblyFlag");
+            if (flagEl) {
+                flagEl.className = `fi fi-${countryAlpha2.toLowerCase()}`;
+            }
+        }
+
+        // Engine
+        setText("engineAspiration", data.model?.engine?.aspiration);
+        setText("engineDisplacementL", data.model?.engine?.displacement_l);
+        setText("engineEngineType", data.model?.engine?.engine_type);
+        setText("engineFuelType", data.model?.engine?.fuel_type);
+        setText("engineManufacturerName", data.model?.engine?.manufacturer?.name);
+        setText("engineName", data.model?.engine?.name);
+        setText("enginePowerKw", data.model?.engine?.power_kw);
+        setText("engineTorqueNm", data.model?.engine?.torque_nm);
+
+        // Model
+        setText("modelName", data.model?.name);
+        setText("modelProductionDate", data.model?.production_date);
+        setText("modelVariant", data.model?.variant?.name);
+
+        // Vehicle Summary Info
+        const makeName = data.make?.name ?? '---';
+        const modelName = data.model?.name ?? '---';
+        const variantName = data.model?.variant?.name ?? '---';
+        const productionDate = data.model?.production_date ?? '---';
+
+        let summary = `${makeName}`;
+
+        // Handle undecoded values (make is a minimum requirement in the API)
+        if (modelName !== '---') {
+            summary += ` ${modelName}`;
+        }
+
+        if (variantName !== '---') {
+            summary += ` ${variantName}`;
+        }
+
+        if (productionDate !== '---') {
+            summary += ` ${productionDate}`;
+        }
+
+        const carSummaryEl = document.getElementById('vehicleSummary');
+        if (carSummaryEl) carSummaryEl.textContent = summary;
+
+    } else {
+        resultContainer.innerHTML = '<p class="no-data">No VIN result found. Please decode a VIN first.</p>';
+    }
+</script>
+
+
+</body>
+</html>
