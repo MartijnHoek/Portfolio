@@ -14,12 +14,12 @@ or contain data that I don't want in a public repository (yet).
 
 The projects included in this repository are:
 - [A website for VIN decoding](Projects/VinDecodingWebsite/README.md)
-- A football game database project and analytics
+- [A football game database project and analytics](Projects/FootballDatabaseAndAnalytics/README.md)
 
 ## Used Technologies
 Below is displayed which technologies are used:
-- Python ([VIN decoding website](Projects/VinDecodingWebsite/README.md))
+- Python ([VIN decoding website](Projects/VinDecodingWebsite/README.md)) & ([Football game database and analytics](Projects/FootballDatabaseAndAnalytics/README.md))
   - Flask ([VIN decoding website](Projects/VinDecodingWebsite/README.md))
-  - Pandas
-- MySQL
-- Tableau
+  - Pandas ([Football game database and analytics](Projects/FootballDatabaseAndAnalytics/README.md))
+- MySQL ([Football game database and analytics](Projects/FootballDatabaseAndAnalytics/README.md))
+- Tableau ([Football game database and analytics](Projects/FootballDatabaseAndAnalytics/README.md))

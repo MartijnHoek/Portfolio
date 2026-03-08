@@ -1,0 +1,145 @@
+{
+    "formation": "3-4-2-1",
+    "positions": {
+        "GK": {
+            "id": 1,
+            "name": "Pedro Tavero",
+            "position": "gk",
+            "rating_for_position": 86
+        },
+        "CB #1": {
+            "id": 3,
+            "name": "Gerard Pique",
+            "position": "cb",
+            "rating_for_position": 88
+        },
+        "CB #2": {
+            "id": 4,
+            "name": "Sergio Busquets",
+            "position": "cb",
+            "rating_for_position": 86
+        },
+        "CB #3": {
+            "id": 6,
+            "name": "Marc Muniesa",
+            "position": "cb",
+            "rating_for_position": 86
+        },
+        "CM #1": {
+            "id": 7,
+            "name": "Jose Vidal",
+            "position": "cm",
+            "rating_for_position": 93
+        },
+        "CM #2": {
+            "id": 11,
+            "name": "Pedri",
+            "position": "cm",
+            "rating_for_position": 91
+        },
+        "CAM #1": {
+            "id": 8,
+            "name": "Miguel Oriol Gracia",
+            "position": "cam",
+            "rating_for_position": 92
+        },
+        "CAM #2": {
+            "id": 9,
+            "name": "Victor Crespo Rincon",
+            "position": "cam",
+            "rating_for_position": 92
+        },
+        "LM": {
+            "id": 13,
+            "name": "Ferran Torres",
+            "position": "lm",
+            "rating_for_position": 90
+        },
+        "RM": {
+            "id": 10,
+            "name": "Juan Guerra",
+            "position": "rm",
+            "rating_for_position": 90
+        },
+        "ST": {
+            "id": 12,
+            "name": "Eneko Sanjuro Mate",
+            "position": "st",
+            "rating_for_position": 90
+        }
+    },
+    "bench": [
+        {
+            "id": 14,
+            "name": "Jose Enrique",
+            "best_position": "cf",
+            "best_rating": 90
+        },
+        {
+            "id": 15,
+            "name": "Miguel Angel Vega Suarez",
+            "best_position": "lm",
+            "best_rating": 90
+        },
+        {
+            "id": 17,
+            "name": "Jacobo Maria Medran Just",
+            "best_position": "cam",
+            "best_rating": 89
+        },
+        {
+            "id": 18,
+            "name": "Oriol Gil Oses",
+            "best_position": "cam",
+            "best_rating": 89
+        },
+        {
+            "id": 20,
+            "name": "Andres Iniesta",
+            "best_position": "cam",
+            "best_rating": 89
+        },
+        {
+            "id": 23,
+            "name": "Jose Vargas",
+            "best_position": "cam",
+            "best_rating": 88
+        },
+        {
+            "id": 16,
+            "name": "David Villa",
+            "best_position": "cf",
+            "best_rating": 87
+        },
+        {
+            "id": 19,
+            "name": "Imanol Gil",
+            "best_position": "cf",
+            "best_rating": 86
+        },
+        {
+            "id": 21,
+            "name": "Cesar Carmona",
+            "best_position": "cam",
+            "best_rating": 86
+        },
+        {
+            "id": 5,
+            "name": "Jon Cobo Almagro",
+            "best_position": "cb",
+            "best_rating": 85
+        },
+        {
+            "id": 22,
+            "name": "Roniery Dankowski",
+            "best_position": "cb",
+            "best_rating": 83
+        },
+        {
+            "id": 2,
+            "name": "Fernando Pacheco",
+            "best_position": "gk",
+            "best_rating": 82
+        }
+    ]
+}

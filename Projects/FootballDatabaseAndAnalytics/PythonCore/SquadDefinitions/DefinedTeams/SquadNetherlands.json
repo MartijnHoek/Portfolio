@@ -1,0 +1,145 @@
+{
+    "formation": "4-3-3 Attacking",
+    "positions": {
+        "GK": {
+            "id": 1,
+            "name": "Justin Bijlow",
+            "position": "gk",
+            "rating_for_position": 92
+        },
+        "LB": {
+            "id": 6,
+            "name": "Mike van den Bosch",
+            "position": "lb",
+            "rating_for_position": 89
+        },
+        "RB": {
+            "id": 5,
+            "name": "Daniel van der Meer",
+            "position": "rb",
+            "rating_for_position": 87
+        },
+        "CB #1": {
+            "id": 3,
+            "name": "Matthijs de Ligt",
+            "position": "cb",
+            "rating_for_position": 90
+        },
+        "CB #2": {
+            "id": 4,
+            "name": "Stefan de Vrij",
+            "position": "cb",
+            "rating_for_position": 84
+        },
+        "CM #1": {
+            "id": 7,
+            "name": "Frenkie de Jong",
+            "position": "cm",
+            "rating_for_position": 93
+        },
+        "CM #2": {
+            "id": 12,
+            "name": "Leroy te Vrede",
+            "position": "cm",
+            "rating_for_position": 84
+        },
+        "CAM": {
+            "id": 10,
+            "name": "Quincy Promes",
+            "position": "cam",
+            "rating_for_position": 87
+        },
+        "LW": {
+            "id": 8,
+            "name": "Memphis Depay",
+            "position": "lw",
+            "rating_for_position": 90
+        },
+        "RW": {
+            "id": 9,
+            "name": "Matthew Anderson",
+            "position": "rw",
+            "rating_for_position": 89
+        },
+        "ST": {
+            "id": 11,
+            "name": "Edwin de Wit",
+            "position": "st",
+            "rating_for_position": 86
+        }
+    },
+    "bench": [
+        {
+            "id": 2,
+            "name": "Kaj van Dijk",
+            "best_position": "gk",
+            "best_rating": 91
+        },
+        {
+            "id": 16,
+            "name": "Robin van Persie",
+            "best_position": "cf",
+            "best_rating": 86
+        },
+        {
+            "id": 20,
+            "name": "Dylan Vente",
+            "best_position": "st",
+            "best_rating": 85
+        },
+        {
+            "id": 21,
+            "name": "Dylan Timmermans",
+            "best_position": "lw",
+            "best_rating": 84
+        },
+        {
+            "id": 13,
+            "name": "Guus Til",
+            "best_position": "cam",
+            "best_rating": 83
+        },
+        {
+            "id": 17,
+            "name": "Terence Kongolo",
+            "best_position": "cb",
+            "best_rating": 83
+        },
+        {
+            "id": 19,
+            "name": "Sven van Beek",
+            "best_position": "cb",
+            "best_rating": 83
+        },
+        {
+            "id": 22,
+            "name": "Ibrahim Afellay",
+            "best_position": "lm",
+            "best_rating": 83
+        },
+        {
+            "id": 14,
+            "name": "Teun Koopmeiners",
+            "best_position": "cdm",
+            "best_rating": 82
+        },
+        {
+            "id": 18,
+            "name": "Jop Apau",
+            "best_position": "cb",
+            "best_rating": 82
+        },
+        {
+            "id": 23,
+            "name": "Nigel de Jong",
+            "best_position": "cdm",
+            "best_rating": 82
+        },
+        {
+            "id": 15,
+            "name": "Bryan Holla",
+            "best_position": "lwb",
+            "best_rating": 81
+        }
+    ]
+}

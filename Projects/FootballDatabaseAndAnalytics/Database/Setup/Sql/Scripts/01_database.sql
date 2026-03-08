@@ -1,0 +1,1 @@
+CREATE DATABASE career_mode_legacy_db
