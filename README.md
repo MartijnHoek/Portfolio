@@ -13,13 +13,13 @@ of the complete code from the original projects as they are still work in progre
 or contain data that I don't want in a public repository (yet).
 
 The projects included in this repository are:
-- [A website for VIN decoding](Projects/VinDecodingWebsite/README.md)
-- [A football game database project and analytics](Projects/FootballDatabaseAndAnalytics/README.md)
+- [A website for VIN decoding](https://github.com/MartijnHoek/Portfolio/tree/main/Projects/VinDecodingWebsite)
+- [A football game database project and analytics](https://github.com/MartijnHoek/Portfolio/blob/main/Projects/FootballDatabaseAndAnalytics)
 
 ## Used Technologies
 Below is displayed which technologies are used:
-- Python ([VIN decoding website](Projects/VinDecodingWebsite/README.md)) & ([Football game database and analytics](Projects/FootballDatabaseAndAnalytics/README.md))
-  - Flask ([VIN decoding website](Projects/VinDecodingWebsite/README.md))
-  - Pandas ([Football game database and analytics](Projects/FootballDatabaseAndAnalytics/README.md))
-- MySQL ([Football game database and analytics](Projects/FootballDatabaseAndAnalytics/README.md))
-- Tableau ([Football game database and analytics](Projects/FootballDatabaseAndAnalytics/README.md))
+- Python ([VIN decoding website](https://github.com/MartijnHoek/Portfolio/tree/main/Projects/VinDecodingWebsite)) & ([Football game database and analytics](https://github.com/MartijnHoek/Portfolio/blob/main/Projects/FootballDatabaseAndAnalytics))
+  - Flask ([VIN decoding website](https://github.com/MartijnHoek/Portfolio/tree/main/Projects/VinDecodingWebsite))
+  - Pandas ([Football game database and analytics](https://github.com/MartijnHoek/Portfolio/blob/main/Projects/FootballDatabaseAndAnalytics))
+- MySQL ([Football game database and analytics](https://github.com/MartijnHoek/Portfolio/blob/main/Projects/FootballDatabaseAndAnalytics))
+- Tableau ([Football game database and analytics](https://github.com/MartijnHoek/Portfolio/blob/main/Projects/FootballDatabaseAndAnalytics))
