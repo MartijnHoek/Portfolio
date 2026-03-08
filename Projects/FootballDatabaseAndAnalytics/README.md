@@ -23,6 +23,7 @@ My goals in this project were:
 - Gain more experience with Python outside of use cases of my work.
 - Get experience with data science tools in Python (Pandas, Matplotlib for example).
 - Get experience with (My)SQL.
+- Get experience with data visualization
 
 ## Reflection
 I feel that in this project I'm still missing an in-depth analysis of my data, I have done a couple of small analysis 
@@ -33,7 +34,8 @@ But there is still alot to do/learn with this project, I had some gripes with ta
 the Python packages. 
 
 Because of this I'm currently playing around with Tableau to display the data more interactive and make it easier for a
-user to get information from it. 
+user to get information from it. (see this [link](https://public.tableau.com/app/profile/martijn.hoek/viz/CareerLegacy_workbook/Dashboard1)
+for my current dashboard)
 
 ## Project structure
 ```
