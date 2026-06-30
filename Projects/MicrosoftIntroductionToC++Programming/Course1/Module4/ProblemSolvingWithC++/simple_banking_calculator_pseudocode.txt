@@ -1,0 +1,31 @@
+Program that helps users calculate compound interest for savings accounts
+
+Let users input:
+- Initial deposit amount
+- Annual interest rate (as %)
+- number of years
+
+Calculate final amount using compound interest formula A = P (1 + r)^t
+
+Display final amount and interest earned
+
+
+Function validatedInput {
+    DO {
+        INPUT
+        IF INPUT IS LOWER THAN 0 OR INPUT IS NOT A NUMBER{
+            PRINT ERROR INVALID INPUT
+        }
+    } WHILE INPUT VALUE IS LOWER THAN 0
+
+    RETURN INPUT
+}
+
+FUNCTION MAIN
+
+    PRINT WHICH VALUE TO INPUT
+    validatedInput
+
+    Calculation 
+
+    display the total values
