@@ -1,0 +1,7 @@
+CAPSTONE PROJECT COURSE 1
+Design 4 Utility functions
+1. Basic calculator (addition, subraction, multiplication, division)
+2. Unit conversion from HP to kW
+3. Text case converter
+4. Countdown of days till my wedding
+
