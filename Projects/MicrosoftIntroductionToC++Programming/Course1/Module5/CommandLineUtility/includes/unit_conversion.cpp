@@ -40,7 +40,7 @@ void unitConversionInterface() {
         // Quit the menu to prevent requesting for the conversion values
         // Made this way to prevent asking the question multiple times later on
         if (menuChoice == 5) {
-            cout << "User has decide to close the calculator, closing down now." << endl;
+            cout << "User has decide to close the tool, closing down now." << endl;
             keepActive = false;
             break;
         }

@@ -3,6 +3,8 @@
 #include "includes/utility.h"
 #include "includes/calculator.h"
 #include "includes/unit_conversion.h"
+#include "includes/text_converter.h"
+#include "includes/wedding_date.h"
 
 using namespace std;
 
@@ -30,10 +32,10 @@ int main() {
             unitConversionInterface();
         }
         else if (chosenUtility == 3) {
-            // Text case converter
+            textConverter();
         }
         else if (chosenUtility == 4) {
-            // Days till my wedding
+            weddingDateCalculator();
         }
         else if (chosenUtility == 5) {
             cout << "User has decide to close the utility tools, closing down now." << endl;
@@ -43,5 +45,5 @@ int main() {
             cout << "Error: chosenUtility has a value of: " << chosenUtility << " this should not happen, please try again." << endl;
         }
     }
-    return 1;
+    return 0;
 }
