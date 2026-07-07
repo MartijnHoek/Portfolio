@@ -1,0 +1,7 @@
+DAILY SALES REPORT
+==================
+Product        Quantity  Price     
+Laptop         5         $999.99
+Mouse          12        $29.99
+Keyboard       4         $49.99
+Monitor        54        $12.12
