@@ -1,0 +1,21 @@
+# ninja log v7
+2	61	8059037354323751	json-populate-prefix/src/json-populate-stamp/json-populate-mkdir	2852519ad5f2c12d
+2	61	8059037354323751	C:/Users/Martijn/PycharmProjects/Portfolio/Projects/MicrosoftIntroductionToC++Programming/Course2/Module4/WorkingWithExternalLibraries/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-mkdir	2852519ad5f2c12d
+61	486	8059037358580551	json-populate-prefix/src/json-populate-stamp/json-populate-download	539763459c67b298
+61	486	8059037358580551	C:/Users/Martijn/PycharmProjects/Portfolio/Projects/MicrosoftIntroductionToC++Programming/Course2/Module4/WorkingWithExternalLibraries/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-download	539763459c67b298
+486	546	8059037359148642	json-populate-prefix/src/json-populate-stamp/json-populate-update	dbbdcd19b494ef0
+486	546	8059037359148642	C:/Users/Martijn/PycharmProjects/Portfolio/Projects/MicrosoftIntroductionToC++Programming/Course2/Module4/WorkingWithExternalLibraries/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-update	dbbdcd19b494ef0
+546	602	8059037359748622	json-populate-prefix/src/json-populate-stamp/json-populate-patch	37ed4779a03a7c
+546	602	8059037359748622	C:/Users/Martijn/PycharmProjects/Portfolio/Projects/MicrosoftIntroductionToC++Programming/Course2/Module4/WorkingWithExternalLibraries/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-patch	37ed4779a03a7c
+602	659	8059037360314407	json-populate-prefix/src/json-populate-stamp/json-populate-configure	d8ddf15de81f756a
+602	659	8059037360314407	C:/Users/Martijn/PycharmProjects/Portfolio/Projects/MicrosoftIntroductionToC++Programming/Course2/Module4/WorkingWithExternalLibraries/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-configure	d8ddf15de81f756a
+659	714	8059037360840202	json-populate-prefix/src/json-populate-stamp/json-populate-build	4164fa03f8f64e33
+659	714	8059037360840202	C:/Users/Martijn/PycharmProjects/Portfolio/Projects/MicrosoftIntroductionToC++Programming/Course2/Module4/WorkingWithExternalLibraries/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-build	4164fa03f8f64e33
+714	768	8059037361399569	json-populate-prefix/src/json-populate-stamp/json-populate-install	5f30965c838bf6d0
+714	768	8059037361399569	C:/Users/Martijn/PycharmProjects/Portfolio/Projects/MicrosoftIntroductionToC++Programming/Course2/Module4/WorkingWithExternalLibraries/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-install	5f30965c838bf6d0
+768	822	8059037361949724	json-populate-prefix/src/json-populate-stamp/json-populate-test	c382a6d74e027e09
+768	822	8059037361949724	C:/Users/Martijn/PycharmProjects/Portfolio/Projects/MicrosoftIntroductionToC++Programming/Course2/Module4/WorkingWithExternalLibraries/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-test	c382a6d74e027e09
+822	895	8059037362622476	CMakeFiles/json-populate-complete	df4d8ff8336e9b31
+822	895	8059037362622476	json-populate-prefix/src/json-populate-stamp/json-populate-done	df4d8ff8336e9b31
+822	895	8059037362622476	C:/Users/Martijn/PycharmProjects/Portfolio/Projects/MicrosoftIntroductionToC++Programming/Course2/Module4/WorkingWithExternalLibraries/build/_deps/json-subbuild/CMakeFiles/json-populate-complete	df4d8ff8336e9b31
+822	895	8059037362622476	C:/Users/Martijn/PycharmProjects/Portfolio/Projects/MicrosoftIntroductionToC++Programming/Course2/Module4/WorkingWithExternalLibraries/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-done	df4d8ff8336e9b31
