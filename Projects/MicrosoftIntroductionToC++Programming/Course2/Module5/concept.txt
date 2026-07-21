@@ -1,0 +1,25 @@
+Goal:
+- Create a program that reads a JSON file and process the data into average, minimum and maximum
+
+Program flow:
+------- JSON ----------
+- Check if json input file exists
+- Check if json file can be opened
+- Read json input file
+- Parse json input file
+------- Processing ----
+- Process the retrieved values
+- Determine, average, minimum and maximum value
+-------- Output -------
+- Create output file
+- Write to output file
+
+Namespaces & libraries:
+Libraries:
+- json
+
+Namespaces:
+- FileHandler
+    - input
+    - output
+- Processing

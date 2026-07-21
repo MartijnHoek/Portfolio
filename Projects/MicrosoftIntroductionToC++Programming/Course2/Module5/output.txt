@@ -1,0 +1,3 @@
+Average Price: $224.99
+Minimum Price: $49.99
+Maximum Price: $999.99
